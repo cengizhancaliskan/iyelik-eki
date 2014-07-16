@@ -7,9 +7,10 @@ iyelikEkle($kelime,$soneEkle='',$bicimlendir=false)
 - $kelime => iyelik eklenecek kelime
 - $sonaEkle => kelimenin sonuna istede bağlı birşeyler ekleme
 - $bicimlendir => kelimeyi istede bağlı biçimlendirme
-=>     'k' => strtolower // küçültür
-=>     'b' => strtoupper // büyültür
-=>     'i' => ucfirst // ilk harf büyük
+- - $bicimlendir Değerleri
+- - 1. 'k' => strtolower // küçültür
+- - 2. 'b' => strtoupper // büyültür
+- - 3. 'i' => ucfirst // ilk harf büyük
 
 =====================
 
